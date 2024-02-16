@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.mjs
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
-    siteImage: `/banner.jpg`,
+    siteTitle: `The Math Geek`,
+    siteTitleAlt: `The Math Geek - A Professional Math Tutor in the Greater Greenville, SC Area`,
+    siteHeadline: `The Math Geek - A Professional Math Tutor in the Greater Greenville, SC Area`,
+    siteUrl: `https://themathgeek.pro`,
+    siteDescription: `The Math Geek is a professional math tutor in the Greater Greenville, SC area. I offer tutoring services for all levels of math, from elementary school to college. I specialize in helping students who are struggling with math, and I can help you or your child improve your math skills and grades. I offer in-person and online tutoring services. Contact me today to schedule a tutoring session!`,
+    siteImage: `/master_calculus_and_precalculus.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `Joseph Cunningham <joechamm@outlook.com>`, 
   },
   trailingSlash: `always`,
   plugins: [
@@ -39,9 +39,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `The Math Geek`,
+        short_name: `MathGeek`,
+        description: `The Math Geek is a professional math tutor in the Greater Greenville, SC area. I offer tutoring services for all levels of math, from elementary school to college. I specialize in helping students who are struggling with math, and I can help you or your child improve your math skills and grades. I offer in-person and online tutoring services. Contact me today to schedule a tutoring session!`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
